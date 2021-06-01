@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Enriqueta&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <style>
+        header {
+            background-color: rgb(66, 147, 218);
+            color: white;
+            text-align: center;
+            margin: 20px;
+            padding: 10px;
+            font-family: 'Black Han Sans', sans-serif;
+        }
+        .survey{
+            font-family: 'Enriqueta', serif;
+        }
+        .form {
+            text-align: center;
+        }
+
+        .name {
+            margin: 20px;
+        }
+
+        .dep {
+            margin: 10px;
+        }
+
+        .tell {
+            text-align: center;
+            height: 60px;
+            /* margin: 60px; */
+        }
+
+        .radio {
+            text-align: center;
+        }
+
+        .check {
+            text-align: center;
+        } 
+        
+        .select{
+            text-align: center;
+            margin: 10px;
+        }
+        .submit{
+            text-align: center;
+            margin: 10px;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>EMPLOYEE INTERESTS SURVEY FORM</h1>
+    </header>
+    <main class="survey">
+        <div class="form">
+            Enter your name:<input type="text" class="name"><br>
+            Enter your Department:<input type="text" class="dep"><br>
+            <!-- Tell us litte about yourself:<input type="text" class="tell"> -->
+        </div>
+
+        <div class="tell">
+            Tell us litte about yourself:
+            <textarea name="comment" id="" cols="30" rows="4"></textarea> <br> <br>
+        </div>
+
+        <div class="radio">
+             <p>Do you excersice at home ?</p>
+           
+                <input type="radio" name="exe" value=1>Yes
+                <input type="radio" name="exe" value=2>No  
+        </div>
+
+        <div class="check">
+            <p>How do you like to read about your favourite subjects?</p>
+            <input type="checkbox" name="" id="">
+            <label for="books">Books</label>
+
+            <input type="checkbox" name="" id="">
+            <label for="Online">Online resources</label>
+
+            <input type="checkbox" name="" id="">
+            <label for="phone">Phone apps</label>
+
+            <input type="checkbox" name="" id="">
+            <label for="Magazines">Magazines</label>
+        </div>
+
+        <div class="select">
+            What genre of movies do you like?
+            <select name="movies">
+                <option value=1 selected="true">comedy</option>
+                <option value=2 >action</option>
+                <option value=3 >adventure</option>
+                <option value=4 >adult</option>
+                <option value=5 >horror</option>
+
+            </select> 
+
+        </div>
+
+        <div class="submit">
+            <input type="submit" name="" id="" value="submit form">
+        </div>
+
+    </main>
+
+</body>
+
+</html>
